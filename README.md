@@ -44,7 +44,6 @@ The platform combines real-time environmental data, machine learning models, and
 ## APIs
 - OpenWeatherMap API
 - Open-Meteo API
-- WeatherAPI
 
 ## Deployment
 - Vercel (Frontend)
