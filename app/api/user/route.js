@@ -52,6 +52,8 @@ export async function GET(request) {
 
     } catch (error) {
 
+        console.error("USER API ERROR:", error);
+
         return NextResponse.json(
             {
                 message: "Something went wrong",
@@ -139,6 +141,8 @@ export async function PATCH(request) {
         );
 
     } catch (error) {
+
+        console.error("USER PATCH ERROR:", error);
 
         return NextResponse.json(
             {

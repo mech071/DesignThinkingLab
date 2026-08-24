@@ -27,10 +27,10 @@ const getCacheKey = ({
         latitude.toFixed(4),
         longitude.toFixed(4),
         landArea.toFixed(2),
-        N ?? "auto",
-        P ?? "auto",
-        K ?? "auto",
-        ph ?? "auto",
+        N ?? "285",
+        P ?? "48",
+        K ?? "340",
+        ph ?? "6.4",
     ].join(":");
 
 const fetchRecommendation = async ({
