@@ -26,7 +26,7 @@ const Footer = () => {
           </p>
           <br></br>
           <div className="text-gray-400 leading-relaxed max-w-md ">
-            Made by Team HelloWorld
+            Made by Team Div4champs
           </div>
         </div>
 
